@@ -23,11 +23,22 @@ a:focus, a:hover {
 	transition-property: background;
 }
 
-body {
+body {  font-family: 'Arial', sans-serif; /* Choosing a clean, web-safe font */
+    font-size: 16px; /* Default body font size */
+	line-height: 1.6; /* Good line height for readability */
+    color: #333; /* Dark gray text color for better readability */
+	background-color: #f9f9f9; /* Soft background color */
+    padding: 20px; /* Adding some padding to the body */
+    max-width: 1200px;
+	margin: 0 auto; /* Centering the body content */
 
 }
 
-code {
+code { font-family: 'Courier New', monospace; /* Monospaced font for code */
+    font-size: 1.1rem; /* Slightly larger code text for better readability */
+	background-color: #f4f4f4; /* Light background to highlight code */
+    padding: 0.2em 0.4em; /* Padding around code for separation */
+	border-radius: 3px; /* Rounded corners for code block */
 	
 }
 
