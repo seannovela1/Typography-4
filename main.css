@@ -91,3 +91,38 @@ p {  margin-bottom: 1.5rem; /* Add space between paragraphs */
 
 
 }
+
+/* Consistent vertical rhythm and spacing across sections */
+section {
+    margin-bottom: 3rem;
+}
+
+
+ul, ol {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem; /* Add padding to list items for indentation */
+}
+
+li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Apply consistency for text alignment across sections */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Typography and readability tweaks */
+blockquote {
+    font-style: italic;
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid #ddd;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
