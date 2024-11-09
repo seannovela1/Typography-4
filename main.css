@@ -42,38 +42,52 @@ code { font-family: 'Courier New', monospace; /* Monospaced font for code */
 	
 }
 
-h1, h2, h3 {
+h1, h2, h3 { font-family: 'Georgia', serif; /* Using a serif font for headers to create contrast */
+    font-weight: bold;
+	margin-bottom: 0.5em; /* Spacing after headers */
+    line-height: 1.3;
 
 }
 
-h1 {
+h1 {  font-size: 2.5rem; /* Appropriate size for main headers */
+    margin-top: 0; /* Remove margin-top to maintain rhythm */
 
 }
 
-h2 {
+h2 { font-size: 2rem; /* Slightly smaller size for h2 */
+
 
 }
 
-h3 {
+h3 {     font-size: 1.5rem; /* Smaller size for h3 */
+
 	
 }
 
-header {
+header {    margin-bottom: 2rem; /* Vertical spacing below the header */
+
 	
 }
 
-main {
+main {     margin-top: 2rem; /* Add margin to top of main content */
+
 
 }
 
-p {
+p {  margin-bottom: 1.5rem; /* Add space between paragraphs */
+    font-size: 1rem; /* Regular text size for paragraphs */
+	line-height: 1.6; /* Maintain line-height for readability */
+    max-width: 70ch; /* Limit the width of paragraphs to 70 characters for readability */
+
 
 }
 
-#intro {
+#intro {     margin-bottom: 3rem; /* Add vertical spacing after intro section */
+
 
 }
 
-#how-does-it-work, #influence, #joke {
+#how-does-it-work, #influence, #joke {     margin-bottom: 2.5rem; /* Add vertical spacing for section breaks */
+
 
 }
